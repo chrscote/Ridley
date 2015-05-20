@@ -2,8 +2,8 @@
 	session_start();
 	include("../dbConn.php");
 	
-	$userName = $_POST["userName"];
-	$password = $_POST["password"];
+	$userName = mysql_real_escape_string($_POST["userName"]);
+	$password = mysql_real_escape_string($_POST["password"]);
 	
 	$sql = "SELECT * FROM Admin WHERE UserName='".$userName."' and Password='".md5($password)."'";
 	try {
