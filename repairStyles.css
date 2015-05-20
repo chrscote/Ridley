@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+body { 
+    background-image: url("images/ridleybg.gif");
+    background-repeat: repeat-x;
+	line-height: 1.8em;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+#top {
+	background-color:#000052;
+	overflow-x: hidden;
+	height: 95px;
+	width: 100%;
+}
+form {
+	margin-left: 75px;
+}
+h1 {
+	margin-right: 200px;
+	font-size:2em;
+	text-align: center;
+}
+label {
+	vertical-align: top;
+}
+fieldset {
+	border: 1px solid black;
+	width: 90%;
+	text-align: left;
+}
+#expl {
+	font-size: .9em;
+	font-style: italic;
+	line-height: 0.9em;
+}
+td {
+	line-height: 1.2em;
+}

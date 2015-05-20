@@ -1,0 +1,11 @@
+WampServer Extensions
+php_curl
+php_gd2
+php_mbstring
+php_mssql
+php_mysql
+php_mysqli
+php_pdo_mssql
+php_pdo_mysql
+php_pdo_odbc
+php_pdo_sqlite
